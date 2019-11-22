@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayout">
+    <TableRow>
+        <TextView
+            android:text="Ví dụ TableLayout"
+            android:background="@color/xanhnhat"
+            android:textColor="@color/dotuoi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_span="5"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="B1" android:layout_column="2"/>
+        <Button android:text="B2" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="C1" />
+        <Button android:text="C2" android:layout_column="3" />
+        <Button android:text="C3" />
+    </TableRow>
+
+</TableLayout>
